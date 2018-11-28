@@ -2,12 +2,9 @@
       box-sizing: border-box;
     }
     body {
-      font-family: 'Open Sans', sans-serif;
-
-      margin: 0;
-      padding: 0;
-      background: #F5F5F5;
-    }
+       font-family: 'Open Sans', sans-serif;
+       color: #222;
+     }
     header {
       font-weight: 400;
       -webkit-font-smoothing: antialiased;
@@ -36,11 +33,6 @@
       margin-left: auto;
       margin-right: auto;
     }
-    .logo {
-      width: 200px;
-      display: inline-block;
-      margin: 10px 0px;
-    }
     .menu {
       list-style: none;
       list-style-type: none;
@@ -49,3 +41,35 @@
       display: inline;
       margin-left: 37.5px;
     }
+    .card {
+     height: 950px;
+     width: 1300px;
+     box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+     border-radius: 4px;
+   }
+    .instrument {
+    margin: 0;
+    padding: .3rem;
+    background-color: #F4F6F6;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.instrument > h1{
+  color: #697681;
+}
+.instrument > h1,
+.use-instrument {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+}
+.use-instrument {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+        color: #697681;
+}
+.use-instrument > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
