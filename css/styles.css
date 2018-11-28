@@ -47,29 +47,29 @@
      box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
      border-radius: 4px;
    }
-    .instrument {
+    .restaurant {
     margin: 0;
     padding: .3rem;
     background-color: #F4F6F6;
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-.instrument > h1{
+.restaurant > h1{
   color: #697681;
 }
-.instrument > h1,
-.use-instrument {
+.restaurant > h1,
+.description-restaurant {
     margin: .5rem;
     padding: .3rem;
     font-size: 1.2rem;
     border-radius: 4px;
 }
-.use-instrument {
+.description-restaurant {
     background: right/contain content-box border-box no-repeat
         url('/media/examples/rain.svg') white;
         color: #697681;
 }
-.use-instrument > p {
+.description-restaurant > p {
     margin: .2rem;
     font-size: 1rem;
 }
