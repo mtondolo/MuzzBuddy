@@ -36,6 +36,7 @@
     .menu {
       list-style: none;
       list-style-type: none;
+      cursor: grab;
     }
     .menu > li {
       display: inline;
@@ -56,6 +57,7 @@
 
 .restaurant > h1{
   color: #697681;
+  cursor: grab;
 }
 .restaurant > h1,
 .description-restaurant {
