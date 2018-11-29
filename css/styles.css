@@ -75,3 +75,13 @@
     margin: .2rem;
     font-size: 1rem;
 }
+footer {
+    display: flex;
+    padding: .3rem;
+    color: #697681;
+    background-color: #F4F6F6;
+}
+
+footer > p {
+  margin-left: 10.5px;
+}
