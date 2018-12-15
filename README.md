@@ -1,5 +1,5 @@
 ## MuzzBuddy
-MuzzBuddy is a simple web app that displays names, location and contact details of restaurants in Lusaka that save halaal food (Muslim permissible food and drinks).
+MuzzBuddy is a simple web app that displays names, location and contact details of restaurants in Lusaka that save halaal food - Muslim permissible food and drinks.
  ### Issues:
  The main body is not filling the end of the left margin when the breakpoint is at 1200px. 
 ### Contributions
