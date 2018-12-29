@@ -63,6 +63,7 @@
       text-align: center;
       line-height: 24px;
       padding: 24px;
+      cursor: -webkit-grab;
     }
 
     /*
@@ -93,7 +94,6 @@
 
 .content-item > h1{
   color: #697681;
-  cursor: grab;
 }
 
 /*
